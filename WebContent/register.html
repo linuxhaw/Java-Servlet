@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Form</title>
+</head>
+<body>
+
+ <form action="RegServlet" method="post">
+
+<h5>Name</h5><input type="text" name="name">
+
+<h5>DOB</h5><input type="date" name="dob">
+
+<h5>Gender</h5>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+<h5>Course</h5>
+  <select name="subject" multiple>
+  <option value="Subject 1 : Java">Java</option>
+  <option value="Subject 2 : PHP">PHP</option>
+  <option value="Subject 3 : Andriod">Andriod</option>
+  <option value="Subject 4 : ASP">ASP</option>
+  </select>
+
+  <br> <br>
+<input type="submit" value="Register">
+
+</form>
+</body>
+</html>
